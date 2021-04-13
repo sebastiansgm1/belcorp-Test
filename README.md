@@ -2,6 +2,9 @@
 
 Proyecto de prueba
 
+Branch main esta basada en PageObjectModel
+Brack screenplay esta basada en ScreenPlay
+
 ### HERRAMIENTAS USADAS ###
 
 Este proyecto esta creado sobre el modelo de automatización Page Object, usando librerías

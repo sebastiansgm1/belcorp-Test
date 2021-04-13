@@ -4,7 +4,7 @@ Proyecto de prueba
 
 ### HERRAMIENTAS USADAS ###
 
-Este proyecto esta creado sobre el modelo de automatización Page Object, usando librerías
+Este proyecto esta creado sobre el patrón de automatización ScreenPlay, usando librerías
 de Serenity, además se usa la metodología BDD apoyada con CUCUMBER.
 
 Como gestor de dependencias se usó gradle, para dar formato al código se usó el style java de google,

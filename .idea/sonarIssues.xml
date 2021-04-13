@@ -243,7 +243,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/components/CheckOut.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/components/ProductCard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/components/RegisterPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/components/ShoppingCart.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/definitions/BuyOnEsikaPageDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/interactions/MoveTo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/interactions/MoveToElement.java">
           <value>
             <set />
           </value>
@@ -303,6 +333,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/questions/Added.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/steps/AddAddressStep.java">
           <value>
             <set />
@@ -324,6 +359,31 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/steps/RegisterStep.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/Add.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/AddShipping.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/NavigatesTo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/OpenWeb.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/RegisterAs.java">
           <value>
             <set />
           </value>
@@ -433,6 +493,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/co/belcorp/stepdefinitions/BuyOnEsikaPageDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/la/haus/runners/ReservationRunner.java">
           <value>
             <set />
@@ -468,7 +533,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745_screenshots.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/target/site/serenity/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../creditcalculator/src/main/java/com/credit/calculator/task/OpenWeb.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../creditcalculator/src/test/java/com/credit/calculator/stepdefinition/CreditCalculatorStepDefinition.java">
           <value>
             <set />
           </value>

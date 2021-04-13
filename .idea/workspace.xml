@@ -3,6 +3,24 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f2254c25-4781-4f1a-bd7b-446888c659ba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,9 +52,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.co.belcorp.steps" />
-      <recent name="com.co.belcorp.pages" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\features" />
+      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\belcorp\src\main\resources" />
@@ -51,9 +69,9 @@
       <recent name="co.com.rappi.runners" />
       <recent name="co.com.rappi.utilities" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\features" />
-      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.co.belcorp.steps" />
+      <recent name="com.co.belcorp.pages" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.BuyEsikaRunner">
@@ -167,6 +185,9 @@
       <updated>1585607809293</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612884931209">

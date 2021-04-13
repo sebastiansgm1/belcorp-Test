@@ -1,0 +1,75 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "net.serenity-bdd:serenity-gradle-plugin:2.0.65"
+        classpath "gradle.plugin.com.github.sherter.google-java-format:google-java-format-gradle-plugin:0.8"
+        classpath "io.freefair.gradle:lombok-plugin:5.1.1"
+    }
+}
+
+plugins {
+    id 'java'
+    id 'maven'
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'maven'
+apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: "io.freefair.lombok"
+
+group 'co.com.rappi'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    google()
+}
+
+ext {
+    serenityVersion = '2.0.52'
+    serenityCucumberVersion = '2.2.5'
+}
+
+dependencies {
+    implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.9.7'
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+    implementation "net.serenity-bdd:serenity-rest-assured:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-core:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-cucumber5:$rootProject.ext.serenityCucumberVersion"
+    implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityVersion"
+    implementation group: 'org.assertj', name: 'assertj-core', version: '1.7.0'
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.4'
+    implementation group: 'net.serenity-bdd', name: 'serenity-reports', version: '2.0.52'
+    implementation group: 'io.rest-assured', name: 'json-schema-validator', version: '4.0.0'
+    implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-csv', version: '2.10.0'
+    implementation group: 'com.google.api-client', name: 'google-api-client', version: '1.24.1'
+    implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '2.7.0'
+}
+
+tasks.withType(Test) {
+    systemProperties = System.properties
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+tasks.withType(Test) {
+    systemProperty "file.encoding", "UTF-8"
+}
+
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)
+
+

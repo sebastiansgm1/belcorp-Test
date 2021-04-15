@@ -22,7 +22,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2254c25-4781-4f1a-bd7b-446888c659ba" name="Default Changelist" comment="" />
+    <list default="true" id="f2254c25-4781-4f1a-bd7b-446888c659ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/CsvUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/JsonFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/definitions/BuyOnEsikaPageDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/definitions/BuyOnEsikaPageDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/53bed339f610da635631255835583e4b688a990f2d24f3277f9a4d895f5e99a5.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/53bed339f610da635631255835583e4b688a990f2d24f3277f9a4d895f5e99a5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/be86d5d3147f4dcae16b71d09788605102aad1907aa36377e22d0486a0f5ce89.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/be86d5d3147f4dcae16b71d09788605102aad1907aa36377e22d0486a0f5ce89.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +67,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZrqxnTpa1XSFAXxD8r1trOjxVF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,9 +82,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\features" />
-      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.co.belcorp.steps" />
+      <recent name="com.co.belcorp.pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\belcorp\src\main\resources" />
@@ -64,14 +94,15 @@
       <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones_web\src\main\java\co\com\rappi\steps" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.co.belcorp.utilities" />
       <recent name="com.co.belcorp.runners" />
       <recent name="co.com.rappi.definitions" />
       <recent name="co.com.rappi.runners" />
       <recent name="co.com.rappi.utilities" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.co.belcorp.steps" />
-      <recent name="com.co.belcorp.pages" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\features" />
+      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.BuyEsikaRunner">
@@ -187,6 +218,15 @@
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -231,25 +271,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612899179419" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1618292352938">
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom" timestamp="1618523177102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618292352938" />
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618523177102" />
     <state width="1323" height="242" key="GridCell.Tab.0.bottom/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200423" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1618292352938">
+    <state width="1877" height="364" key="GridCell.Tab.0.center" timestamp="1618523177101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.center/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618292352938" />
+    <state width="1877" height="364" key="GridCell.Tab.0.center/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618523177101" />
     <state width="1323" height="242" key="GridCell.Tab.0.center/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200422" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1618292352938">
+    <state width="1877" height="364" key="GridCell.Tab.0.left" timestamp="1618523177101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.left/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618292352938" />
+    <state width="1877" height="364" key="GridCell.Tab.0.left/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618523177101" />
     <state width="1323" height="242" key="GridCell.Tab.0.left/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200422" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1618292352938">
+    <state width="1877" height="364" key="GridCell.Tab.0.right" timestamp="1618523177101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.right/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618292352938" />
+    <state width="1877" height="364" key="GridCell.Tab.0.right/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618523177101" />
     <state width="1323" height="242" key="GridCell.Tab.0.right/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200422" />
     <state width="1877" height="416" key="GridCell.Tab.1.bottom" timestamp="1618289203492">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -318,7 +358,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/co/belcorp/definitions/BuyOnEsikaPageDefinition.java</url>
-          <line>34</line>
+          <line>36</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>

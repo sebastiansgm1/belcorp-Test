@@ -3,10 +3,12 @@ package com.co.belcorp.definitions;
 import com.co.belcorp.steps.AddAddressStep;
 import com.co.belcorp.steps.BuyOnEsikaStep;
 import com.co.belcorp.steps.RegisterStep;
+import com.co.belcorp.utilities.CsvUtilities;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import java.io.IOException;
 import net.thucydides.core.annotations.Steps;
 
 public class BuyOnEsikaPageDefinition {
@@ -20,7 +22,7 @@ public class BuyOnEsikaPageDefinition {
   @Steps
   AddAddressStep addAddressStep;
 
-  @Given("I enter the page {string} and enter {string} section")
+  @Given("I entered the page {string} and entered {string} section")
   public void enterPageAndSection(String page, String section) {
     buyOnEsikaStep.enterPageAndSection(page, section);
   }
@@ -35,12 +37,12 @@ public class BuyOnEsikaPageDefinition {
     registerStep.registerGuest(registrationInformation.asMaps().get(0));
   }
 
-  @When("add the shipping address")
-  public void addShippingAddress(DataTable addressInformation) {
-    addAddressStep.addShippingAddress(addressInformation.asMaps().get(0));
+  @When("add the shipping address {string}")
+  public void addShippingAddress(String addressFilter) throws IOException {
+    addAddressStep.addShippingAddress(CsvUtilities.getMapTestData("register", addressFilter));
   }
 
-  @Then("shipping address is registered")
+  @Then("shipping address will be registered")
   public void verifyAddressRegistered() {
     addAddressStep.verifyAddressRegistered();
   }

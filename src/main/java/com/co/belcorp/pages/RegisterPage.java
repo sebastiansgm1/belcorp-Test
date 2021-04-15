@@ -23,9 +23,6 @@ public class RegisterPage extends GeneralPage {
   @FindBy(css = "button.btn.btn-magenta.btn-block.guestCheckoutBtn")
   private WebElementFacade btnLoginAsGuest;
 
-  @FindBy(css = "a.btn.btn-black")
-  private WebElementFacade btnGoPay;
-
   public void setName(String name) {
     typeInto(txtName, name);
   }
@@ -48,10 +45,6 @@ public class RegisterPage extends GeneralPage {
 
   public void loginAsGuest(){
     btnLoginAsGuest.click();
-  }
-
-  public void goPay(){
-    btnGoPay.click();
   }
 
 }

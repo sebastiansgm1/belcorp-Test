@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
     features = "src/test/resources/features/buy_on_the_esika_page.feature",
-    glue = {"com.co.belcorp.definitions"})
+    glue = {"com.co.belcorp.definitions"},
+    tags = "@test_registration")
 
 public class BuyEsikaRunner {
 

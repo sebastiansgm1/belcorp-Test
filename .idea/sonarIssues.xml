@@ -148,6 +148,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../bddrappirt/src/main/java/co/back/rappi/utilities/CsvUtilities.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../bddrappirt/src/main/java/co/com/rappi/services/lupe/LoginLupeService.java">
           <value>
             <set />
@@ -329,6 +334,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/AssertionMessages.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/CsvUtilities.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/JsonFiles.java">
           <value>
             <set />
           </value>

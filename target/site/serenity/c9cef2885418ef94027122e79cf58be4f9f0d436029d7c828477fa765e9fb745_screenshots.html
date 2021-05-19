@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-04-2021 11:50</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-05-2021 12:48</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">test address registration
+                                <span class="error-color">test address registration
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,77 +208,84 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element click intercepted exception: element click intercepted: Element (input name='agreeToReceivePublicity' type='checkbox' class='l-agree-receive-publicity-check') is not clickable at point (439, 584). Other element would receive the click: (div id='yie-backdrop-0ddc746e-fc7a-5584-817c-338ada8492d7' style='position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; opacity: 0.7; background-color: rgb(0, 0, 0); transform: translateZ(0);' class='yie_esc_0ddc746e-fc7a-5584-817c-338ada8492d7')(/div)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.ElementClickInterceptedException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.co.belcorp.tasks.RegisterAs.performAs(RegisterAs.java:31)<br />com.co.belcorp.stepdefinitions.BuyOnEsikaPageDefinition.registerGuest(BuyOnEsikaPageDefinition.java:50)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:51)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:67)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4725342625479995616.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="6f75956904253249f4ef8d74d165939d7fea6842e28a0edbd6687a41f2e2b4ce.png" title=" Given 'Sebastian' enters the page 'https://www.esika.com/pe' and enters 'Perfumes/Maderosa' section" width="1920"/>
-                <img src="6f75956904253249f4ef8d74d165939d7fea6842e28a0edbd6687a41f2e2b4ce.png" title=" Sebastian Open esika web page " width="1920"/>
-                <img src="6f75956904253249f4ef8d74d165939d7fea6842e28a0edbd6687a41f2e2b4ce.png" title=" Sebastian opens the https://www.esika.com/pe" width="1920"/>
-                <img src="6f75956904253249f4ef8d74d165939d7fea6842e28a0edbd6687a41f2e2b4ce.png" title=" Sebastian Open esika web page  (completed)" width="1920"/>
-                <img src="6f75956904253249f4ef8d74d165939d7fea6842e28a0edbd6687a41f2e2b4ce.png" title=" Sebastian Open section " width="1920"/>
-                <img src="6f75956904253249f4ef8d74d165939d7fea6842e28a0edbd6687a41f2e2b4ce.png" title=" Sebastian move to" width="1920"/>
-                <img src="b9fb21b912c1b596dce49ebe1992aaa9283e2a48040fc43272214ec2db733eaf.png" title=" Sebastian move to (completed)" width="1920"/>
-                <img src="b9fb21b912c1b596dce49ebe1992aaa9283e2a48040fc43272214ec2db733eaf.png" title=" Sebastian clicks on [By.xpath: //a[@title='Maderosa']]" width="1920"/>
-                <img src="c8a35b9b4ef225137071c98ab710c34e55bde3e87808526825cc3d7bdaaa957b.png" title=" Sebastian clicks on [By.xpath: //a[@title='Maderosa']] (completed)" width="1920"/>
-                <img src="c8a35b9b4ef225137071c98ab710c34e55bde3e87808526825cc3d7bdaaa957b.png" title=" Sebastian Open section  (completed)" width="1920"/>
-                <img src="c8a35b9b4ef225137071c98ab710c34e55bde3e87808526825cc3d7bdaaa957b.png" title=" Given 'Sebastian' enters the page 'https://www.esika.com/pe' and enters 'Perfumes/Maderosa' section (completed)" width="1920"/>
-                <img src="280e43355ab6c61f7310e673f5c178697e4d2f47c62ef8f007618802003c206d.png" title=" When He adds the 'Magnat' product with 1 additional quanity" width="1920"/>
-                <img src="280e43355ab6c61f7310e673f5c178697e4d2f47c62ef8f007618802003c206d.png" title=" Sebastian Add product " width="1920"/>
-                <img src="280e43355ab6c61f7310e673f5c178697e4d2f47c62ef8f007618802003c206d.png" title=" Sebastian clicks on //a[@class='name'][contains(text(),'Magnat')]" width="1920"/>
-                <img src="280e43355ab6c61f7310e673f5c178697e4d2f47c62ef8f007618802003c206d.png" title=" Sebastian clicks on Add quantity button" width="1920"/>
-                <img src="76ffa7e56592b6de9a14ee03e9c5f971857d8dbb898aa26dee0a3adce0ada3db.png" title=" Sebastian clicks on Add quantity button (completed)" width="1920"/>
-                <img src="76ffa7e56592b6de9a14ee03e9c5f971857d8dbb898aa26dee0a3adce0ada3db.png" title=" Sebastian clicks on Add product button" width="1920"/>
-                <img src="76ffa7e56592b6de9a14ee03e9c5f971857d8dbb898aa26dee0a3adce0ada3db.png" title=" Sebastian clicks on Add product button (completed)" width="1920"/>
-                <img src="76ffa7e56592b6de9a14ee03e9c5f971857d8dbb898aa26dee0a3adce0ada3db.png" title=" Sebastian clicks on go cart button" width="1920"/>
-                <img src="941ebbcc81ad2a9a1caf07b1af5f358199e77d4a1c065d2962149f70445c7819.png" title=" Sebastian clicks on go cart button (completed)" width="1920"/>
-                <img src="941ebbcc81ad2a9a1caf07b1af5f358199e77d4a1c065d2962149f70445c7819.png" title=" Sebastian clicks on go check out button" width="1920"/>
-                <img src="f453c55caedcb812aad0b7c81128781de1e6e82863ed64064967cac50d872fe7.png" title=" Sebastian clicks on go check out button (completed)" width="1920"/>
-                <img src="f453c55caedcb812aad0b7c81128781de1e6e82863ed64064967cac50d872fe7.png" title=" Sebastian Add product  (completed)" width="1920"/>
-                <img src="8b7bcc002820fee95e4a2787e4d653a4634c72de12a23065a2f768f11add8750.png" title=" When He adds the 'Magnat' product with 1 additional quanity (completed)" width="1920"/>
-                <img src="c17bb67edf6a27946a6c56d1b3f53d45b38e917ca101fe5380450aecacf7710f.png" title=" And he registers as a guest with the following information
+                <img src="98c9e0d3a38166288237899d39eb7917515b973453d09d685d7d537d5506bffb.png" title=" Given 'Sebastian' enters the page 'https://www.esika.com/pe' and enters 'Perfumes/Maderosa' section" width="1904"/>
+                <img src="98c9e0d3a38166288237899d39eb7917515b973453d09d685d7d537d5506bffb.png" title=" Sebastian Open esika web page " width="1904"/>
+                <img src="98c9e0d3a38166288237899d39eb7917515b973453d09d685d7d537d5506bffb.png" title=" Sebastian opens the https://www.esika.com/pe" width="1904"/>
+                <img src="98c9e0d3a38166288237899d39eb7917515b973453d09d685d7d537d5506bffb.png" title=" Sebastian Open esika web page  (completed)" width="1904"/>
+                <img src="98c9e0d3a38166288237899d39eb7917515b973453d09d685d7d537d5506bffb.png" title=" Sebastian Open section " width="1904"/>
+                <img src="7437a1547aaefcf565904b758e60e14ac77cf27232fea267e80bbd2f4f73c3d9.png" title=" Sebastian move to" width="1904"/>
+                <img src="55d4b5d108cc5cdb4c10c4983d4b91cb1e29dfc870d4dc2d1ee981c2534aeee9.png" title=" Sebastian move to (completed)" width="1904"/>
+                <img src="55d4b5d108cc5cdb4c10c4983d4b91cb1e29dfc870d4dc2d1ee981c2534aeee9.png" title=" Sebastian clicks on [By.xpath: //a[@title='Maderosa']]" width="1904"/>
+                <img src="04a2bf56fe22f5b68a80b8193795dbb3952b1db85a7503ae0a63cc0003e1f3de.png" title=" Sebastian clicks on [By.xpath: //a[@title='Maderosa']] (completed)" width="1904"/>
+                <img src="04a2bf56fe22f5b68a80b8193795dbb3952b1db85a7503ae0a63cc0003e1f3de.png" title=" Sebastian Open section  (completed)" width="1904"/>
+                <img src="04a2bf56fe22f5b68a80b8193795dbb3952b1db85a7503ae0a63cc0003e1f3de.png" title=" Given 'Sebastian' enters the page 'https://www.esika.com/pe' and enters 'Perfumes/Maderosa' section (completed)" width="1904"/>
+                <img src="9164e78baea099329e2091b5c8643605ff971257918191884df5ad14366985cc.png" title=" When He adds the 'Magnat' product with 1 additional quanity" width="1904"/>
+                <img src="9164e78baea099329e2091b5c8643605ff971257918191884df5ad14366985cc.png" title=" Sebastian Add product " width="1904"/>
+                <img src="9164e78baea099329e2091b5c8643605ff971257918191884df5ad14366985cc.png" title=" Sebastian clicks on //a[@class='name'][contains(text(),'Magnat')]" width="1904"/>
+                <img src="9164e78baea099329e2091b5c8643605ff971257918191884df5ad14366985cc.png" title=" Sebastian clicks on Add quantity button" width="1904"/>
+                <img src="54f815b6302e7127efab38cedad6aa137b0d4d31eafaf624282c5b0afd59930d.png" title=" Sebastian clicks on Add quantity button (completed)" width="1904"/>
+                <img src="54f815b6302e7127efab38cedad6aa137b0d4d31eafaf624282c5b0afd59930d.png" title=" Sebastian clicks on Add product button" width="1904"/>
+                <img src="2bdf4f319f869079c3aeb55b9060e61c3b26632c59b8da8f04c8a9d71d014512.png" title=" Sebastian clicks on Add product button (completed)" width="1904"/>
+                <img src="2bdf4f319f869079c3aeb55b9060e61c3b26632c59b8da8f04c8a9d71d014512.png" title=" Sebastian clicks on go cart button" width="1904"/>
+                <img src="421952668a7b7b2659fd742beba7dd3e54bef15d4596256a75bd5a29b5ca19d4.png" title=" Sebastian clicks on go cart button (completed)" width="1904"/>
+                <img src="421952668a7b7b2659fd742beba7dd3e54bef15d4596256a75bd5a29b5ca19d4.png" title=" Sebastian clicks on go check out button" width="1904"/>
+                <img src="76dba8da6b121d0113c3c3599b634d343c06baf61f771a86d806d273a88c0bc2.png" title=" Sebastian clicks on go check out button (completed)" width="1904"/>
+                <img src="76dba8da6b121d0113c3c3599b634d343c06baf61f771a86d806d273a88c0bc2.png" title=" Sebastian Add product  (completed)" width="1904"/>
+                <img src="76dba8da6b121d0113c3c3599b634d343c06baf61f771a86d806d273a88c0bc2.png" title=" When He adds the 'Magnat' product with 1 additional quanity (completed)" width="1904"/>
+                <img src="76dba8da6b121d0113c3c3599b634d343c06baf61f771a86d806d273a88c0bc2.png" title=" And he registers as a guest with the following information
 | Name | LastName | Email |
-| Prueba | Invitado | prueba.invitado@belcorp.com |" width="1920"/>
-                <img src="c17bb67edf6a27946a6c56d1b3f53d45b38e917ca101fe5380450aecacf7710f.png" title=" Sebastian Register Guest " width="1920"/>
-                <img src="c17bb67edf6a27946a6c56d1b3f53d45b38e917ca101fe5380450aecacf7710f.png" title=" Sebastian enters 'Prueba' into Name text field" width="1920"/>
-                <img src="c17bb67edf6a27946a6c56d1b3f53d45b38e917ca101fe5380450aecacf7710f.png" title=" Sebastian enters 'Invitado' into Last Name text field" width="1920"/>
-                <img src="50a673fc61ba1ba96713759a807f88f2f0ac5f7ff29d777562215bb34805f8af.png" title=" Sebastian enters 'Invitado' into Last Name text field (completed)" width="1920"/>
-                <img src="50a673fc61ba1ba96713759a807f88f2f0ac5f7ff29d777562215bb34805f8af.png" title=" Sebastian enters 'prueba.invitado@belcorp.com' into Email text field" width="1920"/>
-                <img src="338fe74b17ebc6793726c087ceaf850655cb071ac697584c79f24e718b3d415d.png" title=" Sebastian enters 'prueba.invitado@belcorp.com' into Email text field (completed)" width="1920"/>
-                <img src="338fe74b17ebc6793726c087ceaf850655cb071ac697584c79f24e718b3d415d.png" title=" Sebastian enters 'prueba.invitado@belcorp.com' into Confirm Email text field" width="1920"/>
-                <img src="a7c75daa8ba9c71c7b57149e124febb07a2ca1bb7d11a450fd30d822eec15306.png" title=" Sebastian enters 'prueba.invitado@belcorp.com' into Confirm Email text field (completed)" width="1920"/>
-                <img src="a7c75daa8ba9c71c7b57149e124febb07a2ca1bb7d11a450fd30d822eec15306.png" title=" Sebastian clicks on Accept terms checkbox" width="1920"/>
-                <img src="b0e2f0887b2579c66375fad1ffa00b1eaa1db06885822f5bc2dd1849cb79abc7.png" title=" Sebastian clicks on Accept terms checkbox (completed)" width="1920"/>
-                <img src="b0e2f0887b2579c66375fad1ffa00b1eaa1db06885822f5bc2dd1849cb79abc7.png" title=" Sebastian clicks on Login button" width="1920"/>
-                <img src="a3385e42494235c81c55fe10b0d843ca908ed9c45356d85567f3aa48109039f2.png" title=" Sebastian clicks on Login button (completed)" width="1920"/>
-                <img src="a3385e42494235c81c55fe10b0d843ca908ed9c45356d85567f3aa48109039f2.png" title=" Sebastian Register Guest  (completed)" width="1920"/>
-                <img src="a3385e42494235c81c55fe10b0d843ca908ed9c45356d85567f3aa48109039f2.png" title=" And he registers as a guest with the following information
-| Name | LastName | Email |
-| Prueba | Invitado | prueba.invitado@belcorp.com | (completed)" width="1920"/>
-                <img src="f5a2cf338a784a5898e05483ac2a635be4cf63e887c5577ea4c947a54ffdec84.png" title=" And adds the shipping address
-| Department | Province | District | Address | Additional Info | Reference | PhoneNumber |
-| AMAZONAS | BAGUA | ARAMANGO | Cra 75A 92-74 | Apto 102 | Frente a la iglesia | 3217524785 |" width="1920"/>
-                <img src="f5a2cf338a784a5898e05483ac2a635be4cf63e887c5577ea4c947a54ffdec84.png" title=" Sebastian Add shipping address " width="1920"/>
-                <img src="f5a2cf338a784a5898e05483ac2a635be4cf63e887c5577ea4c947a54ffdec84.png" title=" Sebastian select AMAZONAS on department list" width="1920"/>
-                <img src="f5a2cf338a784a5898e05483ac2a635be4cf63e887c5577ea4c947a54ffdec84.png" title=" Sebastian select BAGUA on Province list" width="1920"/>
-                <img src="0b5121656ef28383279b1123839b2e7ca7a1ae3f97e69ec3e6d655b41ff3a232.png" title=" Sebastian select BAGUA on Province list (completed)" width="1920"/>
-                <img src="0b5121656ef28383279b1123839b2e7ca7a1ae3f97e69ec3e6d655b41ff3a232.png" title=" Sebastian select ARAMANGO on District list" width="1920"/>
-                <img src="51bbb2cb373ed4748c38f9420bd27881cde93d1b07c7f71590da786fb1af4f78.png" title=" Sebastian select ARAMANGO on District list (completed)" width="1920"/>
-                <img src="51bbb2cb373ed4748c38f9420bd27881cde93d1b07c7f71590da786fb1af4f78.png" title=" Sebastian enters 'Cra 75A 92-74' into Address text field" width="1920"/>
-                <img src="d2b1a88ac40dbd239fdd7974269f48a253202693dc89eca085a7a35698e4707d.png" title=" Sebastian enters 'Cra 75A 92-74' into Address text field (completed)" width="1920"/>
-                <img src="d2b1a88ac40dbd239fdd7974269f48a253202693dc89eca085a7a35698e4707d.png" title=" Sebastian enters 'Apto 102' into Aditional info text field" width="1920"/>
-                <img src="975a387b22644df22a7ed8e1210cc006a6bf94c79663cf9916b1500ed50de9d9.png" title=" Sebastian enters 'Apto 102' into Aditional info text field (completed)" width="1920"/>
-                <img src="975a387b22644df22a7ed8e1210cc006a6bf94c79663cf9916b1500ed50de9d9.png" title=" Sebastian enters 'Frente a la iglesia' into Reference field" width="1920"/>
-                <img src="4cc111f6b571c33da796b69a5cf3d7ef1936c75a73a0dd9351dc810e6eeca104.png" title=" Sebastian enters 'Frente a la iglesia' into Reference field (completed)" width="1920"/>
-                <img src="4cc111f6b571c33da796b69a5cf3d7ef1936c75a73a0dd9351dc810e6eeca104.png" title=" Sebastian enters '3217524785' into Phone number text field" width="1920"/>
-                <img src="b10ea1e92916069a4c16e43dbdfc69d00b6cabe1698f633c768018b7825eefbf.png" title=" Sebastian enters '3217524785' into Phone number text field (completed)" width="1920"/>
-                <img src="b10ea1e92916069a4c16e43dbdfc69d00b6cabe1698f633c768018b7825eefbf.png" title=" Sebastian clicks on submit address button" width="1920"/>
-                <img src="1ec7951030a325ef87c8c5a312da952749abe6fc9f1a2f68834d5a4356767345.png" title=" Sebastian clicks on submit address button (completed)" width="1920"/>
-                <img src="1ec7951030a325ef87c8c5a312da952749abe6fc9f1a2f68834d5a4356767345.png" title=" Sebastian Add shipping address  (completed)" width="1920"/>
-                <img src="1ec7951030a325ef87c8c5a312da952749abe6fc9f1a2f68834d5a4356767345.png" title=" And adds the shipping address
-| Department | Province | District | Address | Additional Info | Reference | PhoneNumber |
-| AMAZONAS | BAGUA | ARAMANGO | Cra 75A 92-74 | Apto 102 | Frente a la iglesia | 3217524785 | (completed)" width="1920"/>
-                <img src="1ec7951030a325ef87c8c5a312da952749abe6fc9f1a2f68834d5a4356767345.png" title=" Then shipping address is registered" width="1920"/>
-                <img src="1ec7951030a325ef87c8c5a312da952749abe6fc9f1a2f68834d5a4356767345.png" title=" Then added should be (true)" width="1920"/>
-                <img src="1ec7951030a325ef87c8c5a312da952749abe6fc9f1a2f68834d5a4356767345.png" title=" Then shipping address is registered (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+| Prueba | Invitado | prueba.invitado@belcorp.com |" width="1904"/>
+                <img src="76dba8da6b121d0113c3c3599b634d343c06baf61f771a86d806d273a88c0bc2.png" title=" Sebastian Register Guest " width="1904"/>
+                <img src="030da024c62e52c3457912187f80a55614dcc97c5c76bfde3a92792c9ce522e1.png" title=" Sebastian enters 'Prueba' into Name text field" width="1904"/>
+                <img src="030da024c62e52c3457912187f80a55614dcc97c5c76bfde3a92792c9ce522e1.png" title=" Sebastian enters 'Invitado' into Last Name text field" width="1904"/>
+                <img src="d3a87b26d0ed408a4530c182f0eeb329cb4fb5a9b047074c293ba99f970ea384.png" title=" Sebastian enters 'Invitado' into Last Name text field (completed)" width="1904"/>
+                <img src="d3a87b26d0ed408a4530c182f0eeb329cb4fb5a9b047074c293ba99f970ea384.png" title=" Sebastian enters 'prueba.invitado@belcorp.com' into Email text field" width="1904"/>
+                <img src="bd7c8827f94c89720f84785af0675457242c5a2e7655f7af74dadb8fff869d1a.png" title=" Sebastian enters 'prueba.invitado@belcorp.com' into Email text field (completed)" width="1904"/>
+                <img src="bd7c8827f94c89720f84785af0675457242c5a2e7655f7af74dadb8fff869d1a.png" title=" Sebastian enters 'prueba.invitado@belcorp.com' into Confirm Email text field" width="1904"/>
+                <img src="526abd944c40d343c3c66dd9ae432a61a24fb9d86e5fa476a25e52f4652b9f1d.png" title=" Sebastian enters 'prueba.invitado@belcorp.com' into Confirm Email text field (completed)" width="1904"/>
+                <img src="526abd944c40d343c3c66dd9ae432a61a24fb9d86e5fa476a25e52f4652b9f1d.png" title=" Sebastian clicks on Accept terms checkbox" width="1904"/>
+                <img src="3e551e6f8c9097a64ff5116bab9bca523514c37776662f3c4110d870d426479a.png" title=" Sebastian clicks on Accept terms checkbox (completed): <span class='error-color'>ERROR</span>" width="1904"/>
             </div>
         </div>
 

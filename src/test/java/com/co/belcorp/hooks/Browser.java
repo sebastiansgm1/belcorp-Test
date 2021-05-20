@@ -1,5 +1,6 @@
 package com.co.belcorp.hooks;
 
+import io.appium.java_client.remote.MobileCapabilityType;
 import net.thucydides.core.webdriver.DriverSource;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -13,10 +14,7 @@ public class Browser implements DriverSource {
     @Override
     public WebDriver newDriver() {
         DesiredCapabilities options = new DesiredCapabilities();
-        String downloadFilepath = System.getProperty("user.dir") + "\\src\\test\\resources\\download";
         HashMap<String, Object> chromePrefs = new HashMap<>();
-        chromePrefs.put("profile.default_content_settings.popups", 0);
-        chromePrefs.put("download.default_directory", downloadFilepath);
         options.setCapability("browserName", "Chrome");
         options.setCapability("platform", "Windows 8.1");
         options.setCapability("version", "87.0");

@@ -3,7 +3,7 @@
 Feature: test product purchase
 
   Scenario: test address registration
-    Given 'Sebastian' enters the page 'https://www.esika.com/pe' and enters 'Perfumes/Maderosa' section
+    Given 'Sebastian' entered the page esika and entered 'Perfumes/Maderosa' section
     When He adds the 'Magnat' product with 1 additional quanity
     And he registers as a guest with the following information
       | Name   | LastName | Email                       |

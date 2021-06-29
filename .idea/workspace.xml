@@ -23,11 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2254c25-4781-4f1a-bd7b-446888c659ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/components/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/NavigateTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/questions/Added.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/questions/Added.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/RegisterAs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/RegisterAs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/co/belcorp/runners/BuyEsikaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/co/belcorp/runners/BuyEsikaRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/co/belcorp/stepdefinitions/BuyOnEsikaPageDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/co/belcorp/stepdefinitions/BuyOnEsikaPageDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/179704e78b158548aae3f17d6b78da16fc1a116930320de83db8c3ab093a3b4c.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/179704e78b158548aae3f17d6b78da16fc1a116930320de83db8c3ab093a3b4c.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/22a92488e2bf162eb58f3f453b650dde0bab75a2b31234832f024f39b1c5f192.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/22a92488e2bf162eb58f3f453b650dde0bab75a2b31234832f024f39b1c5f192.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/27368fdb4cd9a598fa6fa25ec21fc53f9a53136da47328d5007a8fb62cbf40e5.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/27368fdb4cd9a598fa6fa25ec21fc53f9a53136da47328d5007a8fb62cbf40e5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/46cba8f8987ef8559bbb968030cba50fd86bb3f89fc89d56279d8c7e85154ebf.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/46cba8f8987ef8559bbb968030cba50fd86bb3f89fc89d56279d8c7e85154ebf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/53bed339f610da635631255835583e4b688a990f2d24f3277f9a4d895f5e99a5.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/53bed339f610da635631255835583e4b688a990f2d24f3277f9a4d895f5e99a5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/9a8158d5a1be2892838623892ad61fdcfebe9c38666a3226b539b45df825b29f.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9a8158d5a1be2892838623892ad61fdcfebe9c38666a3226b539b45df825b29f.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.csv" afterDir="false" />
@@ -36,6 +51,8 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/be86d5d3147f4dcae16b71d09788605102aad1907aa36377e22d0486a0f5ce89.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/be86d5d3147f4dcae16b71d09788605102aad1907aa36377e22d0486a0f5ce89.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c587bcb80497402177187a5c2b69a7c8bab96fcb2252e5fe39aa84ee428b238e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c587bcb80497402177187a5c2b69a7c8bab96fcb2252e5fe39aa84ee428b238e.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" afterDir="false" />
@@ -44,6 +61,9 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745_screenshots.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d59e131693780671f6e31eddc789e5f50ccf5b68603b0f2110404d8e4b9c12bf.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d59e131693780671f6e31eddc789e5f50ccf5b68603b0f2110404d8e4b9c12bf.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
@@ -57,6 +77,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="belcorp_project" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,13 +123,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bddonboardingcns" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.co.belcorp.questions" />
       <recent name="com.co.belcorp.tasks" />
+      <recent name="com.co.belcorp.questions" />
       <recent name="com.co.belcorp.steps" />
       <recent name="com.co.belcorp.pages" />
     </key>
@@ -240,105 +280,6 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612884931209">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612884931209" />
-    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612838532075">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612838532075" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1618330612818">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618330612818" />
-    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1618330454376">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618330454376" />
-    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612898702724">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612898702724" />
-    <state x="689" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618291787345">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618291787345" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618290159465">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618290159465" />
-    <state x="841" y="382" key="#xdebugger.evaluate" timestamp="1618332102833">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="841" y="382" key="#xdebugger.evaluate/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618332102833" />
-    <state x="2297" y="557" key="#xdebugger.evaluate/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285216165" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1612884552422">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612884552422" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612899179419">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612899179419" />
-    <state width="1877" height="376" key="GridCell.Tab.0.bottom" timestamp="1618332363562">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="376" key="GridCell.Tab.0.bottom/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618332363562" />
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200423" />
-    <state width="1877" height="376" key="GridCell.Tab.0.center" timestamp="1618332363562">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="376" key="GridCell.Tab.0.center/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618332363562" />
-    <state width="1323" height="242" key="GridCell.Tab.0.center/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200422" />
-    <state width="1877" height="376" key="GridCell.Tab.0.left" timestamp="1618332363561">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="376" key="GridCell.Tab.0.left/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618332363561" />
-    <state width="1323" height="242" key="GridCell.Tab.0.left/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200422" />
-    <state width="1877" height="376" key="GridCell.Tab.0.right" timestamp="1618332363562">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="376" key="GridCell.Tab.0.right/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618332363562" />
-    <state width="1323" height="242" key="GridCell.Tab.0.right/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200422" />
-    <state width="1877" height="416" key="GridCell.Tab.1.bottom" timestamp="1618332142884">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="416" key="GridCell.Tab.1.bottom/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618332142884" />
-    <state width="1323" height="242" key="GridCell.Tab.1.bottom/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200425" />
-    <state width="1877" height="416" key="GridCell.Tab.1.center" timestamp="1618332142884">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="416" key="GridCell.Tab.1.center/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618332142884" />
-    <state width="1323" height="242" key="GridCell.Tab.1.center/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200425" />
-    <state width="1877" height="416" key="GridCell.Tab.1.left" timestamp="1618332142884">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="416" key="GridCell.Tab.1.left/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618332142884" />
-    <state width="1323" height="242" key="GridCell.Tab.1.left/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200424" />
-    <state width="1877" height="416" key="GridCell.Tab.1.right" timestamp="1618332142884">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="416" key="GridCell.Tab.1.right/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618332142884" />
-    <state width="1323" height="242" key="GridCell.Tab.1.right/1920.523.1366.728/0.0.1920.1040@1920.523.1366.728" timestamp="1618285200425" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1612836433091">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612836433091" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1612839612932">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612839612932" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1612884552422">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612884552422" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1618287189038">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/1920.523.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618287189038" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -369,18 +310,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/stepdefinitions/BuyOnEsikaPageDefinition.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/AddShipping.java</url>
           <line>33</line>
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/stepdefinitions/BuyOnEsikaPageDefinition.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="22" />
+          <line>31</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/stepdefinitions/BuyOnEsikaPageDefinition.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,22 +6,22 @@ import net.serenitybdd.screenplay.questions.Visibility;
 
 public class Added implements Question<Boolean> {
 
-  private String address;
+    private String address;
 
-  public Added(String address) {
-    this.address = address;
-  }
+    public Added(String address) {
+        this.address = address;
+    }
 
-  @Override
-  public Boolean answeredBy(Actor actor) {
-    return Visibility.of(String
-        .format("//div[@class='checkout-shipping-items row']//span[contains(text(), '%s')]",
-            address)).viewedBy(actor).asBoolean();
-  }
+    @Override
+    public Boolean answeredBy(Actor actor) {
+        return Visibility.of(String
+                .format("//div[@class='checkout-shipping-items row']//span[contains(text(), '%s')]",
+                        address)).viewedBy(actor).asBoolean();
+    }
 
 
-  public static Added address(String address) {
-    return new Added(address);
-  }
+    public static Added address(String address) {
+        return new Added(address);
+    }
 
 }

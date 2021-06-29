@@ -1,6 +1,5 @@
 package com.co.belcorp.tasks;
 
-import static com.co.belcorp.components.RegisterPage.BTN_GO_PAY;
 import static com.co.belcorp.components.RegisterPage.BTN_LOGIS_AS_GUEST;
 import static com.co.belcorp.components.RegisterPage.CHK_ACCEPT_TERMS;
 import static com.co.belcorp.components.RegisterPage.TXT_CONFIRM_EMAIL;
@@ -10,7 +9,6 @@ import static com.co.belcorp.components.RegisterPage.TXT_NAME;
 
 import com.co.belcorp.models.Guest;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;

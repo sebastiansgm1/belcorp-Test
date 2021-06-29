@@ -1,5 +1,9 @@
 package com.co.belcorp.hooks;
 
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+import net.serenitybdd.core.environment.WebDriverConfiguredEnvironment;
+import net.thucydides.core.util.EnvironmentVariables;
 import net.thucydides.core.webdriver.DriverSource;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -10,8 +14,16 @@ import java.util.HashMap;
 
 public class Browser implements DriverSource {
 
+
+    @Before
+    public void getScenarioInformation(Scenario scenario) {
+        EnvironmentVariables env = WebDriverConfiguredEnvironment.getEnvironmentVariables();
+        env.setProperty("build", scenario.getName());
+    }
+
     @Override
     public WebDriver newDriver() {
+        EnvironmentVariables env = WebDriverConfiguredEnvironment.getEnvironmentVariables();
         DesiredCapabilities options = new DesiredCapabilities();
         String downloadFilepath = System.getProperty("user.dir") + "\\src\\test\\resources\\download";
         HashMap<String, Object> chromePrefs = new HashMap<>();
@@ -20,9 +32,9 @@ public class Browser implements DriverSource {
         options.setCapability("browserName", "Chrome");
         options.setCapability("platform", "Windows 8.1");
         options.setCapability("version", "87.0");
-        options.setCapability("resolutionl", "1024x768");
+        options.setCapability("resolutionl", "1366x768");
         options.setCapability("name", "First Test");
-        options.setCapability("build", "Sample Test");
+        options.setCapability("build", env.getProperty("build"));
         options.setCapability("network", "true");
         options.setCapability("visual", "true");
         options.setCapability("video", "true");

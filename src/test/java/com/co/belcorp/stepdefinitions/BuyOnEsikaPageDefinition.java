@@ -13,8 +13,8 @@ import com.co.belcorp.models.Guest;
 import com.co.belcorp.questions.Added;
 import com.co.belcorp.tasks.Add;
 import com.co.belcorp.tasks.AddShipping;
+import com.co.belcorp.tasks.NavigateTo;
 import com.co.belcorp.tasks.NavigatesTo;
-import com.co.belcorp.tasks.OpenWeb;
 import com.co.belcorp.tasks.RegisterAs;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
@@ -22,7 +22,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-
 
 public class BuyOnEsikaPageDefinition {
 
@@ -34,9 +33,10 @@ public class BuyOnEsikaPageDefinition {
     setTheStage(new OnlineCast());
   }
 
-  @Given("{string} enters the page {string} and enters {string} section")
-  public void enterPageAndSection(String actorName, String page, String section) {
-    theActorCalled(actorName).wasAbleTo(OpenWeb.page(page), NavigatesTo.theSection(section));
+  @Given("{string} entered the page esika and entered {string} section")
+  public void enterPageAndSection(String actorName, String section) {
+    theActorCalled(actorName)
+        .wasAbleTo(NavigateTo.esikaHomePage(), NavigatesTo.theSection(section));
   }
 
   @When("He adds the {string} product with {int} additional quanity")

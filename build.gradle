@@ -36,7 +36,7 @@ repositories {
 }
 
 ext {
-    serenityVersion = '2.0.52'
+    serenityVersion = '2.2.13'
     serenityCucumberVersion = '2.2.5'
 }
 
@@ -48,6 +48,8 @@ dependencies {
     implementation "net.serenity-bdd:serenity-cucumber5:$rootProject.ext.serenityCucumberVersion"
     implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
     implementation "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-screenplay-rest:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-screenplay-webdriver:$rootProject.ext.serenityVersion"
     implementation group: 'org.assertj', name: 'assertj-core', version: '1.7.0'
     implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.4'
     implementation group: 'net.serenity-bdd', name: 'serenity-reports', version: '2.0.52'
@@ -66,6 +68,11 @@ tasks.withType(JavaCompile) {
 }
 tasks.withType(Test) {
     systemProperty "file.encoding", "UTF-8"
+}
+
+test {
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
 }
 
 gradle.startParameter.continueOnFailure = true

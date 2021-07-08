@@ -5,4 +5,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 
 @DefaultUrl("/pe")
 public class HomePage extends PageObject {
+
+  public static String PE = "/pe";
+
 }

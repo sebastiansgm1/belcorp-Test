@@ -3,14 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\src\main\java\com\co\belcorp\models\Address.java">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\src\test\java\com\co\belcorp\stepdefinitions\BuyOnEsikaPageDefinition.java">
+        <entry key="\src\test\resources\data\datos_device.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />

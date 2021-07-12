@@ -23,10 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2254c25-4781-4f1a-bd7b-446888c659ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/CsvUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/ImpexWS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/JsonFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data/data_device.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/components/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/components/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/NavigateTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/tasks/NavigateTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +90,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bddonboardingcns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/data" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -94,22 +101,22 @@
       <recent name="com.co.belcorp.pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sebastiangaleano\Documents\belcorp\src\test\resources\data" />
+      <recent name="C:\Users\sebastiangaleano\Documents\belcorp\src\main\java\com\co\belcorp\utilities" />
       <recent name="E:\belcorp\src\main\resources" />
       <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\lahaus\src\main\resources" />
       <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones_web\src\main\resources" />
-      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones_web\src\main\java\co\com\rappi\pages" />
-      <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones_web\src\main\java\co\com\rappi\steps" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\features" />
       <recent name="C:\Users\NECSOFT.DESKTOP-VRL23DR\Documents\formaciones\src\test\resources\" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.co.belcorp.utilities" />
       <recent name="com.co.belcorp.hooks" />
       <recent name="com.co.belcorp.tasks" />
       <recent name="com.co.belcorp.runners" />
       <recent name="co.com.rappi.definitions" />
-      <recent name="co.com.rappi.runners" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.BuyEsikaRunner">
@@ -274,19 +281,14 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/stepdefinitions/BuyOnEsikaPageDefinition.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/stepdefinitions/BuyOnEsikaPageDefinition.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="30" />
+          <line>70</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

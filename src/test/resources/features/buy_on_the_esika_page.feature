@@ -1,5 +1,7 @@
 #language: en
 
+#  @device=GalaxyS20Ultra
+  @device=Windows10
 Feature: test product purchase
 
   Scenario: test address registration

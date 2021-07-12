@@ -2,6 +2,9 @@
 /target/
 /build/
 .idea/
+.idea/workspace.xml
+.idea/*
+
 
 # Ignore Gradle GUI config
 gradle-app.setting

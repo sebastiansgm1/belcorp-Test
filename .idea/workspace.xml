@@ -23,17 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2254c25-4781-4f1a-bd7b-446888c659ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/CsvUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/ImpexWS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/JsonFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/data_device.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/data_device.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/data_device.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,12 +275,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java</url>
-          <line>51</line>
+          <line>56</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java</url>
-          <line>70</line>
+          <line>75</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>

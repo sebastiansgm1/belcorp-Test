@@ -17,10 +17,13 @@ import net.thucydides.core.webdriver.DriverSource;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Browser implements DriverSource {
 
   private static final String DEVICE_TYPE = "deviceType";
+  private static final String DEVICE = "device";
   private static final String DESKTOP = "desktop";
   private static final String MOBILE = "mobile";
   private static final String BROWSER_NAME = "browserName";
@@ -30,6 +33,7 @@ public class Browser implements DriverSource {
   private static final String PLATFORM_NAME = "platformName";
   private static final String PLATFORM_VERSION = "platformVersion";
   private static final String DEVICE_NAME = "deviceName";
+  private static final Logger LOGGER = LoggerFactory.getLogger(Browser.class);
 
   @Before
   public void getScenarioInformation(Scenario scenario) throws IOException {
@@ -38,8 +42,8 @@ public class Browser implements DriverSource {
     Object[] tags = scenario.getSourceTagNames().toArray();
     for (Object tag : tags) {
       String strPlatform = tag.toString().trim().replace("@", "");
-      if (strPlatform.contains("device")) {
-        env.setProperty("device", strPlatform.replace("device=", ""));
+      if (strPlatform.contains(DEVICE)) {
+        env.setProperty(DEVICE, strPlatform.replace("device=", ""));
         break;
       }
     }
@@ -62,7 +66,7 @@ public class Browser implements DriverSource {
     options.setCapability("video", "true");
     options.setCapability("console", "true");
     Map<String, String> dataDevice =
-        CsvUtilities.getMapTestData("device", env.getProperty("device"));
+        CsvUtilities.getMapTestData(DEVICE, env.getProperty(DEVICE));
     if (dataDevice.get(DEVICE_TYPE).equals(DESKTOP)) {
       options.setCapability(BROWSER_NAME, dataDevice.get(BROWSER_NAME));
       options.setCapability(PLATFORM, dataDevice.get(PLATFORM));
@@ -78,7 +82,7 @@ public class Browser implements DriverSource {
           "https://elionavarrete:rwLlFCESHtobr8vm6iZ4qv4HgNln8bytli9P2L6Glx77cvqkDH@hub.lambdatest.com/wd/hub"),
           options);
     } catch (Exception e) {
-      System.out.println(e);
+      LOGGER.error("Error " + e);
       return null;
     }
   }

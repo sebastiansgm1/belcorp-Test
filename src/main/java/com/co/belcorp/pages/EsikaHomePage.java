@@ -3,7 +3,9 @@ package com.co.belcorp.pages;
 import java.util.Arrays;
 import java.util.List;
 import net.serenitybdd.core.annotations.findby.By;
+import net.thucydides.core.annotations.DefaultUrl;
 
+@DefaultUrl("https://www.esika.com/pe")
 public class EsikaHomePage extends GeneralPage {
 
   public void openSection(String section) {

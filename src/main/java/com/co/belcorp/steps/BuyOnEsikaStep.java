@@ -5,8 +5,10 @@ import com.co.belcorp.pages.GeneralPage;
 import com.co.belcorp.pages.ProductCardPage;
 import com.co.belcorp.pages.SectionPage;
 import com.co.belcorp.pages.ShoppingCartPage;
+import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
+
 
 public class BuyOnEsikaStep {
 
@@ -27,6 +29,7 @@ public class BuyOnEsikaStep {
 
   @Step
   public void enterPageAndSection(String page, String section) {
+//    esikaHomePage.open();
     generalPage.openPage(page);
     esikaHomePage.openSection(section);
   }

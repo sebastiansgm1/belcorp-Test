@@ -1,5 +1,10 @@
 #language: en
 
+#language: en
+
+#  @device=GalaxyS20Ultra
+#  @device=Iphone12pro
+@device=Windows10
 Feature: test product purchase
 
   @test_registration

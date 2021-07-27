@@ -28,12 +28,12 @@ public class BuyOnEsikaPageDefinition {
   }
 
   @When("I add the {string} product with {int} additional quanity")
-  public void addProductWithAdditionalQuanity(String product, Integer quantity){
+  public void addProductWithAdditionalQuanity(String product, Integer quantity) {
     buyOnEsikaStep.addProductWithAdditionalQuanity(product, quantity);
   }
 
   @When("I register as a guest with the following information")
-  public void registerGuest(DataTable registrationInformation){
+  public void registerGuest(DataTable registrationInformation) {
     registerStep.registerGuest(registrationInformation.asMaps().get(0));
   }
 

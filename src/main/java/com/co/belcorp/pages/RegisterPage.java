@@ -14,13 +14,10 @@ public class RegisterPage extends GeneralPage {
   @FindBy(id = "guest.email")
   private WebElementFacade txtEmail;
 
-  @FindBy(id = "guest.confirm.email")
-  private WebElementFacade txtConfirmEmail;
+  @FindBy(xpath = "//input[@name = 'belcorpToC'][@id = 'guest.belcorpToC']")
+  private WebElementFacade chkAccept;
 
-  @FindBy(name = "agreeToReceivePublicity")
-  private WebElementFacade chkAcceptTerms;
-
-  @FindBy(css = "button.btn.btn-magenta.btn-block.guestCheckoutBtn")
+  @FindBy(xpath = "//form[@id = 'guestForm']//button")
   private WebElementFacade btnLoginAsGuest;
 
   public void setName(String name) {
@@ -35,12 +32,8 @@ public class RegisterPage extends GeneralPage {
     typeInto(txtEmail, email);
   }
 
-  public void setConfirmEmail(String confirmEmail) {
-    typeInto(txtConfirmEmail, confirmEmail);
-  }
-
   public void acceptTerms() {
-    chkAcceptTerms.click();
+    $("[id = 'guest.belcorpToC']").click(); //This is the other notation option for find element
   }
 
   public void loginAsGuest(){

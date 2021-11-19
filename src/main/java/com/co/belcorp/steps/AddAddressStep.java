@@ -2,6 +2,7 @@ package com.co.belcorp.steps;
 
 import static com.co.belcorp.models.Address.getAddress;
 import static com.co.belcorp.utilities.AssertionMessages.ERROR_ADD_ADDRESS;
+import static org.assertj.core.api.Assertions.assertThat;
 
 import com.co.belcorp.models.Address;
 import com.co.belcorp.pages.CheckOut;
@@ -32,6 +33,6 @@ public class AddAddressStep {
 
   @Step
   public void verifyAddressRegistered(){
-    MatcherAssert.assertThat(ERROR_ADD_ADDRESS.getMessage(), checkOut.verifyAddress(address.getAddress()));
+    assertThat(checkOut.verifyAddress()).contains(address.getAddress());
   }
 }

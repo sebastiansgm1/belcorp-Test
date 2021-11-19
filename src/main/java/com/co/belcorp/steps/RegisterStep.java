@@ -19,7 +19,6 @@ public class RegisterStep {
     registerPage.setName(guest.getName());
     registerPage.setLastName(guest.getLastName());
     registerPage.setEmail(guest.getEmail());
-    registerPage.setConfirmEmail(guest.getEmail());
     registerPage.acceptTerms();
     registerPage.loginAsGuest();
   }

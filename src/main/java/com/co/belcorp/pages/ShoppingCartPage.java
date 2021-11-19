@@ -5,7 +5,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 
 public class ShoppingCartPage extends GeneralPage{
 
-  @FindBy(xpath = "//div[@id='StickySidebar']//button[contains(text(),'Ir a pagar')]")
+  @FindBy(xpath = "//div[@class = 'actions']/button[@id='checkout-display-continueCheckout']")
   private WebElementFacade btnGoCheckOut;
 
   public void goCheckOut(){

@@ -64,9 +64,7 @@ public class CheckOut extends GeneralPage {
     btnAddressSubmit.click();
   }
 
-  public boolean verifyAddress(String address) {
-    return find(By.xpath(String
-        .format("//div[@class='checkout-shipping-items row']//span[contains(text(), '%s')]",
-            address))).isVisible();
+  public String verifyAddress() {
+    return $("//form[@id='mpago_debit']//div[@class='address']").getText();
   }
 }

@@ -25,7 +25,7 @@ apply plugin: 'maven'
 apply plugin: 'net.serenity-bdd.aggregator'
 apply plugin: "io.freefair.lombok"
 
-group 'co.com.rappi'
+group 'com.co.belcorp'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8

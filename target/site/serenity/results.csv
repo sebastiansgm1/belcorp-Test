@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"test product purchase","test address registration","ERROR","2021-07-26T09:46:53.471-05:00[America/Bogota]","0.0","1.83"
+"As a customer I would like to choose a product so that it purchases in the old checkout","test address registration at the old checkout","SUCCESS","2021-12-06T11:07:59.603-05:00[America/Bogota]","0.0","82.47"

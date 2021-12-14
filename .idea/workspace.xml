@@ -23,32 +23,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2254c25-4781-4f1a-bd7b-446888c659ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/utilities/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/data_device.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/definitions/BuyOnEsikaPageDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/definitions/BuyOnEsikaPageDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/pages/CheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/pages/CheckOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/pages/EsikaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/pages/EsikaHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/steps/BuyOnEsikaStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/steps/BuyOnEsikaStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/co/belcorp/runners/BuyEsikaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/co/belcorp/runners/BuyEsikaRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/belcorp/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/belcorp/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/buy_on_the_esika_page.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/53bed339f610da635631255835583e4b688a990f2d24f3277f9a4d895f5e99a5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5ab47b64a43b1b81ea7147d0f5aa377b07a099cef5d238034a78be347ed2b492.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5fab00dbfd5153cc1a065af92593f6a2f21831933d0613b537e1021e8096577b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6af836b2708862e47d7ad682cda4d842021ac48e6870e3b8557af68571cbaab7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/735cc9405832ef0219260b10bc5bad1cd3e8e5e6cd01a3d79539621e2a1bf473.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8e93d0eecfa5f27a78c8e71afc110590d60a093492c03672c8c0c69f72080941.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/af5c47638b4c9f4ecfa7a6ebbf154fa58b592c4ac9c36baec671cf2c8c5510c1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b590e02c4ca1724ff3f57c31e8768df05e9c0489c34ab86d994d7c0f5cef575e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bb976094f64ca88f0e2cc38849612ea278056c8ac70fdd2def331ad82b1f9b1d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/be86d5d3147f4dcae16b71d09788605102aad1907aa36377e22d0486a0f5ce89.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c2cee3f0fd1ed810387e1d34aa2f0c6647496f9ca71c59fe496f4ad9866001e9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9cef2885418ef94027122e79cf58be4f9f0d436029d7c828477fa765e9fb745_screenshots.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e7d56997f340e4af101169e9ea4e02eacae13ee96516bb5e890058450cc038a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f453c55caedcb812aad0b7c81128781de1e6e82863ed64064967cac50d872fe7.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
@@ -62,6 +66,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="belcorp_project" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="belcorp_project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="belcorp_project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="serenity bdd" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +119,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cucumber-webtests" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -114,20 +152,6 @@
   <component name="RunManager" selected="Gradle.BuyEsikaRunner">
     <configuration name="CambioDeNivelServices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.com.rappi.services.CambioDeNivelServices" />
-      <module name="formaciones.main" />
-      <shortenClasspath name="MANIFEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.rappi.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginLupeServices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.com.rappi.services.LoginLupeServices" />
       <module name="formaciones.main" />
       <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
@@ -175,18 +199,62 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="belcorp [aggregate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="aggregate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="belcorp [clearReports]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clearReports" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.CambioDeNivelServices" />
-      <item itemvalue="Application.LoginLupeServices" />
       <item itemvalue="Application.Utils" />
       <item itemvalue="Gradle.BuyEsikaRunner" />
+      <item itemvalue="Gradle.belcorp [aggregate]" />
+      <item itemvalue="Gradle.belcorp [clearReports]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.BuyEsikaRunner" />
+        <item itemvalue="Gradle.belcorp [clearReports]" />
+        <item itemvalue="Gradle.belcorp [aggregate]" />
         <item itemvalue="Application.Utils" />
         <item itemvalue="Application.CambioDeNivelServices" />
-        <item itemvalue="Application.LoginLupeServices" />
       </list>
     </recent_temporary>
   </component>
@@ -245,16 +313,20 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/co/belcorp/definitions/BuyOnEsikaPageDefinition.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/co/belcorp/hooks/Browser.java</url>
           <line>67</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/co/belcorp/pages/RegisterPage.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
